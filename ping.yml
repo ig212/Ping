@@ -1,2 +1,7 @@
-ansible windows -m win_ping -vvvvvv
+- name: Ping 
+  hosts: windows 
+
+  tasks:
+  - name: ping
+    win_ping:
 
