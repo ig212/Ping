@@ -1,0 +1,9 @@
+ansible windows -m win_ping -vvvvvv
+ansible_user= CN126652
+ansible_password= Abudhabi2020$1 
+ansible_port= 5985
+ansible_connection= winrm
+ansible_winrm_server_cert_validation= ignore
+ansible_winrm_realm= CENTENE.COM
+ansible_winrm_transport= credssp
+ansible_winrm_service= HOST
